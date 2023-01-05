@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>arcframe.site | contact</title>
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script defer src="/script/main.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar-overlay" onclick="toggleMenu()"></div>
+      <button class="navbar-burger" onclick="toggleMenu()">
+        <span class="material-symbols-outlined"> menu </span>
+      </button>
+      <h1 class="navbar-title"><b>ARC</b>FRAME</h1>
+      <div class="navbar-menu">
+        <a href="/index.html">
+          <button type="button">ABOUT</button>
+        </a>
+        <a href="/addpages/contact.html">
+          <button type="button" id="hovering">CONTACT</button>
+        </a>
+      </div>
+    </nav>
+    <!-- main content -->
+    <div class="container">
+      <section class="section-7">
+        <div class="card">
+          <a
+            class="socialbox facebook"
+            href="https://www.facebook.com/jotarookj"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <div class="social-icon">
+              <i class="fa fa-fw fa-facebook"></i>
+            </div>
+            <div class="description">
+              <span class="ng-binding-shares"></span>
+              <span class="ng-binding-likes"></span>
+              <span>Add me on Facebook</span>
+            </div>
+          </a>
+
+          <a
+            class="socialbox instagram"
+            href="https://www.instagram.com/axixyxrxy/"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+          >
+            <div class="social-icon">
+              <i class="fa fa-fw fa-instagram"></i>
+            </div>
+            <div class="description">
+              <span class="ng-binding"></span>
+              <span>Follow me on Instagram</span>
+            </div>
+          </a>
+
+          <a
+            class="socialbox twitter"
+            href="https://twitter.com/jotarookj"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <div class="social-icon">
+              <i class="fa fa-fw fa-twitter"></i>
+            </div>
+            <div class="description">
+              <span class="ng-binding"></span>
+              <span>Follow me on Twitter</span>
+            </div>
+          </a>
+
+          <a
+            class="socialbox github"
+            href="https://github.com/adityaRoychoudhary-exe"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
+            <div class="social-icon">
+              <i class="fa fa-fw fa-github"></i>
+            </div>
+            <div class="description">
+              <span class="ng-binding"></span>
+              <span>Code/Projects at Github</span>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section class="section-8">
+        <div class="form">
+          <h3 class="inp-head">
+            want to contact me instead? fill in the details
+          </h3>
+          <div class="group">
+            <div class="group1">
+              <input type="text" class="inp" required placeholder="E-Mail" />
+            </div>
+            <div class="group2">
+              <input
+                type="text"
+                class="inp"
+                required
+                placeholder="Contact No."
+              />
+            </div>
+          </div>
+          <div class="btn-hold">
+            <a href="#">
+              <button class="btn" onclick="buttonCl()">Submit</button>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
